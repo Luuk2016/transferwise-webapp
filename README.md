@@ -1,4 +1,8 @@
 # WIP: (Unofficial) Transferwise web app
+[![GitHub stars](https://img.shields.io/github/stars/Luuk2016/transferwise-webapp.svg)](https://github.com/Luuk2016/transferwise-webapp/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Luuk2016/transferwise-webapp.svg)](https://github.com/Luuk2016/transferwise-webapp/network)
+[![GitHub license](https://img.shields.io/github/license/Luuk2016/transferwise-webapp.svg)](https://github.com/Luuk2016/transferwise-webapp/blob/master/LICENSE)
+
 ![Transferwise logo](https://images.squarespace-cdn.com/content/v1/58775efdd482e90f8535f34f/1498744872480-KWFCQNLDQEX6Z5MDN55D/ke17ZwdGBToddI8pDm48kPipDBN8EsXn0GX4VYEjDvAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2di_anSEgls28Fx9rC-ls48EcpI-gmYcFCPdUS0knNFfOCjLISwBs8eEdxAxTptZAUg/image-asset.png?format=2500w)
 
 ### Functionalities
