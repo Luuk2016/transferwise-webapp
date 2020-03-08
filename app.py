@@ -1,14 +1,17 @@
 #!flask/bin/python
-from flask import Flask, render_template, jsonify, request, abort
+from flask import Flask, render_template, jsonify
+from flask_bootstrap import Bootstrap
 from transferwise import Transferwise
-from env import API_CLIENT_KEY
-import asyncio, env
+import env
 
 # Init Flask application
 app = Flask(__name__)
 
-# Init Transferwise API
-tw = Transferwise(API_CLIENT_KEY)
+# Init Bootstrap App
+bootstrap = Bootstrap(app)
+
+# Init Transferwise API class
+tw = Transferwise(env.API_KEY)
 
 # Home page routing
 @app.route('/', methods=['GET'])
@@ -17,5 +20,4 @@ def index():
 
 # Run the app
 if __name__ == "__main__":
-    app.jinja_env.cache = {}
-    app.run()
+    app.run(debug=True)
