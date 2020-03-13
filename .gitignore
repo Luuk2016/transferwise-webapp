@@ -278,3 +278,5 @@ pip-selfcheck.json
 # End of https://www.gitignore.io/api/venv,flask,python,virtualenv,jetbrains+all,visualstudiocode
 
 .vscode/
+
+.DS_Store
